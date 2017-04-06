@@ -637,6 +637,27 @@ ul.nostyle i {
 }
 
 /******************
+******forum*****
+******************/
+
+#forum {
+    padding-bottom: 100px;
+}
+
+#forum span{
+    font-size: 16px;
+}
+
+#forum .speak-topic{
+    margin-top: 20px;
+    font-size:18px;
+}
+
+#forum .padding{
+    padding-top: 30px;
+}
+
+/******************
 ****organization****
 ******************/
 
