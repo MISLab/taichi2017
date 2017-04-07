@@ -657,6 +657,11 @@ ul.nostyle i {
     padding-top: 30px;
 }
 
+.rwd-line {
+    display: block;
+    line-height: 25px;
+}
+
 /******************
 ****organization****
 ******************/

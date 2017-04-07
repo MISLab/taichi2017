@@ -172,6 +172,17 @@
     }
 }
 
+
+/******************
+***speaker&forum***
+******************/
+@media screen and (min-width: 768px){
+    .rwd-line { 
+        display: inline;
+    }
+}
+
+
 /******************
 ***transport-info***
 ******************/
