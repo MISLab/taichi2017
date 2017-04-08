@@ -73,10 +73,15 @@ body {
     overflow-x: hidden;
 }
 
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    body {
+        font-family: 'cwTeXYen', sans-serif;
+    }
+}
+
 body {
     padding-top: 100px;
     background: #fff;
-    font-family: 'cwTeXYen', sans-serif;
     font-weight: 400;
     color: #64686d;
     line-height: 26px;
