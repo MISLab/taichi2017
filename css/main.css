@@ -653,6 +653,52 @@ ul.nostyle i {
 }
 
 /******************
+******panel*****
+******************/
+
+#panel {
+    padding-bottom: 100px;
+}
+
+#panel .topic{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+#panel .padding{
+    padding-top: 30px;
+}
+
+.rwd-line {
+    display: block;
+    line-height: 25px;
+}
+
+
+#panel .panelist {
+    padding: 13px;
+    background: #eeeeee;
+    border: 2px solid #eeeeee;
+    transition: border-color 400ms;
+    -webkit-transition: border-color 400ms;
+}
+
+#panel .panelist .panelist-img {
+}
+
+#panel .panelist .panelist-info {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+}
+
+
+
+
+/******************
 ******forum*****
 ******************/
 
@@ -662,11 +708,6 @@ ul.nostyle i {
 
 #forum span{
     font-size: 16px;
-}
-
-#forum .speak-topic{
-    margin-top: 20px;
-    font-size:18px;
 }
 
 #forum .padding{
@@ -685,6 +726,10 @@ ul.nostyle i {
 #organization {
     padding: 100px 0;
     background: #f5f5f5;
+}
+
+#organization .space-sm {
+padding-bottom: 20px; 
 }
 
 .space-sm {

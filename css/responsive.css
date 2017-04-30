@@ -174,11 +174,17 @@
 
 
 /******************
-***speaker&forum***
+***speaker&forum&#panel ***
 ******************/
 @media screen and (min-width: 768px){
     .rwd-line { 
         display: inline;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .panelist {
+        margin-bottom: 20px;
     }
 }
 
