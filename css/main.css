@@ -695,7 +695,9 @@ ul.nostyle i {
     margin-bottom: 10px;
 }
 
-
+#panel .panelist:hover {
+    border-color: #45aed6;
+}
 
 
 /******************
