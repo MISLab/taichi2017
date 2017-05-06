@@ -20,6 +20,11 @@
     .navbar.navbar-default .navbar-toggle {
         margin-top: 10px;
     }
+/*
+    .btn-custom{
+        margin-top: 10px;
+    }
+*/
 }
 
 @media only screen and (max-width: 768px) {
@@ -32,6 +37,10 @@
     }
     .navbar.navbar-default .navbar-toggle {
         margin-top: 10px;
+    }
+    .btn-custom{
+        margin-top:10px;
+        margin-bottom: 10px;
     }
 }
 
