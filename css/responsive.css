@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 767px) {
     .container {
         margin-left: 3%;
         margin-right: 3%；
@@ -20,7 +20,7 @@
     .navbar.navbar-default .navbar-toggle {
         margin-top: 10px;
     }
-/*
+    /*
     .btn-custom{
         margin-top: 10px;
     }
@@ -38,8 +38,8 @@
     .navbar.navbar-default .navbar-toggle {
         margin-top: 10px;
     }
-    .btn-custom{
-        margin-top:10px;
+    .btn-custom {
+        margin-top: 10px;
         margin-bottom: 10px;
     }
 }
@@ -55,7 +55,7 @@
         margin-left: 12%;
         height: 70%;
         width: 70%;
-/*        border: 1px solid green;*/
+        /*        border: 1px solid green;*/
     }
 }
 
@@ -65,11 +65,11 @@
         font-size: 18px;
     }
     #top-home img {
-/*
+        /*
         height: 90%;
         width: 90%;
 */
-/*        border:1px solid red;*/
+        /*        border:1px solid red;*/
         margin-top: 75%;
     }
     #tohash {
@@ -77,15 +77,15 @@
     }
 }
 
-@media only screen and (min-width: 521px) and (max-width: 767px) {
+@media only screen and (min-width: 521px) and (max-width: 768px) {
     #top-home {
-        background:url(../images/top-home/mobile.png) no-repeat 50% 50%;
+        background: url(../images/top-home/mobile.png) no-repeat 50% 50%;
         background-size: cover;
     }
     #top-home img {
         height: 50%;
         width: 50%;
-/*        border:1px solid black;*/
+        /*        border:1px solid black;*/
         margin-top: 20%;
     }
     #top-home #btn-top {
@@ -158,8 +158,9 @@
 ******************/
 
 @media only screen and (max-width: 1200px) {
-    #program-logo, program-space {
-        display:none;
+    #program-logo,
+    program-space {
+        display: none;
     }
 }
 
@@ -183,15 +184,19 @@
 
 
 /******************
-***speaker&forum&#panel ***
+***speaker&industry&#panel ***
 ******************/
-@media screen and (min-width: 768px){
-    .rwd-line { 
+
+@media screen and (min-width: 768px) {
+    .rwd-line {
         display: inline;
     }
 }
 
 @media screen and (max-width: 767px) {
+    .speakers {
+        margin-bottom: 20px;
+    }
     .panelist {
         margin-bottom: 20px;
     }
@@ -201,11 +206,19 @@
 /******************
 ***transport-info***
 ******************/
+
 @media screen and (max-width: 767px) {
-    .location{
-    display:block;
-}
-    #transport-info iframe{
-    height: 350px;
-}
-}
+    .location {
+        display: block;
+    }
+    #transport-info iframe {
+        height: 350px;
+    }
+    /******************
+***TAICHI2018***
+******************/
+    @media screen and (max-width: 767px) {
+        #TAICHI-info {
+            display: none;
+        }
+    }

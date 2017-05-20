@@ -399,7 +399,7 @@ ul.nostyle i {
 }
 
 #header .text {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
@@ -502,6 +502,7 @@ ul.nostyle i {
 
 #topic {
     padding: 100px 0;
+/*    background: #f5f5f5;*/
 }
 
 #topic .media.topic-box:first-child {
@@ -554,6 +555,16 @@ ul.nostyle i {
 
 
 /******************
+******gray-space*****
+******************/
+
+#gray-space {
+    padding: 10px 0;
+    background: #f5f5f5;
+}
+
+
+/******************
 ******submission*****
 ******************/
 
@@ -572,7 +583,8 @@ ul.nostyle i {
 ******************/
 
 #program {
-    padding: 50px 0;
+    padding: 100px 0;
+/*    background: #f5f5f5;*/
 }
 
 #program thead tr {
@@ -632,7 +644,8 @@ ul.nostyle i {
 ******************/
 
 #demo {
-    padding-bottom: 100px;
+    padding: 100px 0;
+    background: #f5f5f5;
 }
 
 #demo thead tr {
@@ -658,58 +671,20 @@ ul.nostyle i {
 }
 
 /******************
-******speaker*****
+******speaker&bio*****
 ******************/
 
 #speaker {
     padding: 100px 0;
-    background: #f5f5f5;
+/*    background: #f5f5f5;*/
 }
 
 #speaker span{
-    font-size: 16px;
-}
-
-#speaker .speak-topic{
-    margin-top: 20px;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-#speaker .padding{
-    padding-top: 10px;
-}
-
-#speaker .space{
-    padding-top: 80px;
-}
-
-/******************
-******panel*****
-******************/
-
-#panel {
-    padding: 100px 0;
-}
-
-#panel .topic{
-    margin-top: 20px;
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 36px;
-}
-
-#panel .padding{
-    padding-top: 30px;
-}
-
-.rwd-line {
-    display: block;
-    line-height: 25px;
+/*    font-size: 16px;*/
 }
 
 
-#panel .panelist {
+#speaker .speakers {
     padding: 13px;
     background: #eeeeee;
     border: 2px solid #eeeeee;
@@ -717,35 +692,92 @@ ul.nostyle i {
     -webkit-transition: border-color 400ms;
 }
 
-#panel .panelist .panelist-img {
+#speaker .speakers .speakers-img {
 }
 
-#panel .panelist .panelist-info {
+#speaker .speakers .speakers-info {
     margin-top: 15px;
     padding-bottom: 10px;
     border-bottom: 1px solid #dbdbdb;
     margin-bottom: 10px;
 }
 
-#panel .panelist:hover {
+#speaker .speakers:hover {
     border-color: #45aed6;
 }
 
+#bio {
+    padding-bottom: 100px;
+    background: #f5f5f5;
+}
+
+#bio .speak-topic{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#bio .padding{
+    padding-top: 10px;
+}
+
+#bio .space{
+    padding-top: 80px;
+}
+
+#Rekimoto, #Wai-Tat, #Howes{
+    padding-top:100px;
+}
 
 /******************
-******forum*****
+***panel&industry-select***
 ******************/
 
-#forum {
+#panel {
     padding: 100px 0;
     background: #f5f5f5;
 }
 
-#forum span{
-    font-size: 16px;
+#panel .select {
+    padding: 13px;
+    background: #eeeeee;
+    border: 2px solid #eeeeee;
+    transition: border-color 400ms;
+    -webkit-transition: border-color 400ms;
 }
 
-#forum .padding{
+#panel .select .select-img {
+    padding: 5% 20%;
+}
+
+#panel .select .select-info {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+}
+
+#panel .select:hover {
+    border-color: #45aed6;
+}
+
+/******************
+******academic*****
+******************/
+
+#academic {
+    padding: 100px 0;
+/*    background: #f5f5f5;*/
+}
+
+#academic .topic{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+#academic .padding{
     padding-top: 30px;
 }
 
@@ -754,12 +786,82 @@ ul.nostyle i {
     line-height: 25px;
 }
 
+
+#academic .panelist {
+    padding: 13px;
+    background: #eeeeee;
+    border: 2px solid #eeeeee;
+    transition: border-color 400ms;
+    -webkit-transition: border-color 400ms;
+}
+
+#academic .panelist .panelist-img {
+}
+
+#academic .panelist .panelist-info {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+}
+
+#academic .panelist:hover {
+    border-color: #45aed6;
+}
+
+
+/******************
+******industry*****
+******************/
+
+#industry {
+    padding: 100px 0;
+    background: #f5f5f5;
+}
+
+#industry span{
+/*    font-size: 16px;*/
+}
+
+#industry .padding{
+    padding-top: 30px;
+}
+
+.rwd-line {
+    display: block;
+    line-height: 25px;
+}
+
+#industry .panelist {
+    padding: 13px;
+    background: #eeeeee;
+    border: 2px solid #eeeeee;
+    transition: border-color 400ms;
+    -webkit-transition: border-color 400ms;
+}
+
+#industry .panelist .panelist-img {
+}
+
+#industry .panelist .panelist-info {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+}
+
+#industry .panelist:hover {
+    border-color: #45aed6;
+}
+
+
 /******************
 ****organization****
 ******************/
 
 #organization {
     padding: 100px 0;
+/*    background: #f5f5f5;*/
 }
 
 #organization .space-sm {
@@ -882,7 +984,7 @@ padding-bottom: 20px;
 ******************/
 #organizer {
     padding: 100px 0;
-    background: #f5f5f5;
+/*    background: #f5f5f5;*/
 }
 
 #organizer-logo img{  
@@ -899,7 +1001,7 @@ padding-bottom: 20px;
 ******************/
 
 #sponsor {
-    padding-bottom: 100px;
+    padding: 100px 0;
     background: #f5f5f5;
 }
 
@@ -983,7 +1085,31 @@ padding-bottom: 20px;
 }
 
 
+/******************
+******competition*****
+******************/
 
+#competition {
+    padding: 100px 0;
+/*    background: #f5f5f5;*/
+}
+
+#competition span{
+    font-size: 18px;
+}
+
+/******************
+******TAICHI 2018*****
+******************/
+
+#TAICHI2018 {
+    padding: 100px 0;
+/*    background: #f5f5f5;*/
+}
+
+#TAICHI2018 span{
+    font-size: 18px;
+}
 
 
 /*
