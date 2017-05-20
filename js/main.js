@@ -33,6 +33,15 @@ jQuery(function ($) {
         }, 1000);
         return false;
     });
+    
+	$('.scroll').on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+	});
+    
+    
+    
+    
     // accordian
     $('.accordion-toggle').on('click', function () {
         $(this).closest('.panel-group').children().each(function () {
