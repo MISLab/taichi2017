@@ -861,7 +861,7 @@ ul.nostyle i {
 
 #organization {
     padding: 100px 0;
-    background: #f5f5f5;
+/*    background: #f5f5f5;*/
 }
 
 #organization .space-sm {
@@ -984,7 +984,7 @@ padding-bottom: 20px;
 ******************/
 #organizer {
     padding: 100px 0;
-/*    background: #f5f5f5;*/
+    background: #f5f5f5;
 }
 
 #organizer-logo img{  
@@ -1010,6 +1010,7 @@ padding-bottom: 20px;
     border-radius: 3px;
     padding: 15px;
     margin: 15px;
+    background: #f5f5f5;
 }
 
 #sponsor .blog-post .post-format {
