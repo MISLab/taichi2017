@@ -861,7 +861,7 @@ ul.nostyle i {
 
 #organization {
     padding: 100px 0;
-/*    background: #f5f5f5;*/
+    background: #f5f5f5;
 }
 
 #organization .space-sm {
@@ -1002,7 +1002,7 @@ padding-bottom: 20px;
 
 #sponsor {
     padding: 100px 0;
-    background: #f5f5f5;
+/*    background: #f5f5f5;*/
 }
 
 #sponsor .blog-post {
@@ -1022,6 +1022,11 @@ padding-bottom: 20px;
     border: 5px solid #fff;
     border-radius: 100px;
 }
+
+#sponsor img{
+    background: #ffffff;
+}
+
 .gold{
     background: #FDAF00;
 }
