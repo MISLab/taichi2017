@@ -208,6 +208,9 @@
     .panelist {
         margin-bottom: 20px;
     }
+    #panel h3{
+        font-size: 18px;
+    }
 }
 
 
