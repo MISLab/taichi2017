@@ -471,6 +471,13 @@ ul.nostyle i {
     padding-top: 50px;
 }
 
+.space-sm {
+    padding-bottom: 20px; 
+}
+
+.space-lg {
+    padding-top: 100px;
+}
 
 /******************
 ******topic*****
@@ -685,6 +692,7 @@ ul.nostyle i {
 
 
 #speaker .speakers {
+    margin-bottom: 20px;
     padding: 13px;
     background: #eeeeee;
     border: 2px solid #eeeeee;
@@ -868,9 +876,7 @@ ul.nostyle i {
 padding-bottom: 20px; 
 }
 
-.space-sm {
-    padding-bottom: 20px; 
-}
+
 
 /******************
 ******attendance*****
