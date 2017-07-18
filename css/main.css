@@ -629,6 +629,19 @@ ul.nostyle i {
     display: block;
 }
 */
+#program table{
+    width:100%;
+}
+
+#program a{
+    color:#64686d;
+    font-weight: 600;
+}
+
+#program .event{
+    color:#64686d;
+    font-weight: 600;
+}
 
 #program .click {
     cursor: pointer;
@@ -640,11 +653,14 @@ ul.nostyle i {
     font-size: 80%;
 }
 
-#program .event span {
+#program span {
+    font-weight: 300;
+}
+
+#program .showtext span {
     font-style: italic;
     margin-left: 10px;
 }
-
 
 /******************
 ******demo*****
