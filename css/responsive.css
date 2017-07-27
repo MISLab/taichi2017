@@ -179,7 +179,8 @@
     }
     #program td,
     th {
-        display: block
+        max-width: 767px;
+        display: block;
     }
     #program .time {
         font-size: 90%;
@@ -213,6 +214,29 @@
     }
 }
 
+/******************
+***attend***
+******************/
+
+
+@media screen and (max-width: 767px) {
+    #accommodation tbody,
+    thead {
+        float: left;
+    }
+    #accommodation td,
+    th {
+        max-width: 767px;
+        display: block;
+    }
+    #accommodation .time {
+        font-size: 90%;
+        background: #eee;
+    }
+    #accommodation thead tr {
+        border-style: hidden;
+    }
+}
 
 /******************
 ***transport-info***
