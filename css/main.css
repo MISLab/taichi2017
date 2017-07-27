@@ -924,6 +924,18 @@ padding-bottom: 20px;
 }
 */
 
+#accommodation ul{
+    margin-bottom:0px;
+}
+
+#accommodation li a{
+    color:#64686d;
+}
+
+#accommodation li a:hover{
+    color:#45aed6;
+}
+
 
 /******************
 ******register*****
