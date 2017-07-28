@@ -650,16 +650,35 @@ ul.nostyle i {
 #program .showtext {
     display: none;
     margin-top: 10px;
-    font-size: 80%;
+/*    font-size: 80%;*/
 }
 
 #program span {
     font-weight: 300;
 }
 
-#program .showtext span {
+
+
+/***paper***/
+#program .padding-l-0{
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 10px; 
+}
+
+#paper-detail{
+    border-top: 1px solid #eeeeea;
+    font-size: 14px;
+}
+
+#paper-detail span {
     font-style: italic;
-    margin-left: 10px;
+    font-size: 80%;
+/*    margin-left: 10px;*/
+}
+
+#program p{
+    font-weight: 300;
 }
 
 /******************
