@@ -189,8 +189,17 @@
     #program thead tr {
         border-style: hidden;
     }
+    
+    #program-website{
+        display: none;
+    }
 }
 
+@media screen and (min-width: 768px){
+    #program-mobile{
+        display: none;
+    }
+}
 
 /******************
 ***speaker&industry&#panel ***
