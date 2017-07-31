@@ -666,6 +666,10 @@ ul.nostyle i {
     padding-top: 10px; 
 }
 
+#program .padding-t-10{
+    padding-top: 10px; 
+}
+
 #paper-detail{
     border-top: 1px solid #eeeeea;
     font-size: 14px;
