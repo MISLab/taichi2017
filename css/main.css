@@ -726,7 +726,7 @@ ul.nostyle i {
 }
 
 #speaker span{
-/*    font-size: 16px;*/
+    font-size: 80%;
 }
 
 
@@ -852,6 +852,10 @@ ul.nostyle i {
     padding-bottom: 10px;
     border-bottom: 1px solid #dbdbdb;
     margin-bottom: 10px;
+}
+
+#academic .panelist .panelist-info span{
+    font-size: 80%;
 }
 
 #academic .panelist:hover {
