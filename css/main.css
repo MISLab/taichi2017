@@ -709,6 +709,7 @@ ul.nostyle i {
 
 #demo .parent:hover + .popup {
     display: block;
+    padding-top: 5px;
 }
 
 #demo .title span {
