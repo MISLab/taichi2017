@@ -673,6 +673,7 @@ ul.nostyle i {
 #paper-detail{
     border-top: 1px solid #eeeeea;
     font-size: 14px;
+    margin-top: 10px;
 }
 
 #paper-detail span {
