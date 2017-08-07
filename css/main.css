@@ -633,6 +633,18 @@ ul.nostyle i {
     width:100%;
 }
 
+#program .location{
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 80%;
+    background: #91b2b7;
+    border-radius: 5px;
+    padding:1px 6px;
+    margin-bottom: 5px;
+}
+
 #program a{
     color:#64686d;
     font-weight: 600;
@@ -657,6 +669,9 @@ ul.nostyle i {
     font-weight: 300;
 }
 
+.rwd-line {
+    display: none;
+}
 
 
 /***paper***/
@@ -832,12 +847,6 @@ ul.nostyle i {
     padding-top: 30px;
 }
 
-.rwd-line {
-    display: block;
-    line-height: 25px;
-}
-
-
 #academic .panelist {
     padding: 13px;
     background: #eeeeee;
@@ -882,10 +891,6 @@ ul.nostyle i {
     padding-top: 30px;
 }
 
-.rwd-line {
-    display: block;
-    line-height: 25px;
-}
 
 #industry .panelist {
     padding: 13px;
