@@ -594,10 +594,7 @@ ul.nostyle i {
 /*    background: #f5f5f5;*/
 }
 
-#program .section-header a{
-    color:#ffffff;
-    font-weight: 300;
-}
+
 
 #program thead tr {
     border-style: hidden;
@@ -607,9 +604,14 @@ ul.nostyle i {
     border-top-style: hidden;
 }
 
-#program a{
+#program table a{
     color:#64686d;
     font-weight: 600;
+}
+
+#program .section-header a{
+    color:#ffffff;
+    font-weight: 300;
 }
 
 /*
