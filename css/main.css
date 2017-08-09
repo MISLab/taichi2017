@@ -594,12 +594,22 @@ ul.nostyle i {
 /*    background: #f5f5f5;*/
 }
 
+#program .section-header a{
+    color:#fff;
+    font-weight: 300;
+}
+
 #program thead tr {
     border-style: hidden;
 }
 
 .noBorder {
     border-top-style: hidden;
+}
+
+#program a{
+    color:#64686d;
+    font-weight: 600;
 }
 
 /*
@@ -645,10 +655,7 @@ ul.nostyle i {
     margin-bottom: 5px;
 }
 
-#program a{
-    color:#64686d;
-    font-weight: 600;
-}
+
 
 #program .event{
     color:#64686d;
